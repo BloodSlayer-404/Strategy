@@ -1,0 +1,131 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
+  <title>Coverage Report > ElectroStrategy</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.strategies</a>
+</div>
+
+<h1>Coverage Summary for Class: ElectroStrategy (org.example.strategies)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">ElectroStrategy</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.strategies;
+&nbsp;
+<b class="fc">&nbsp;public class ElectroStrategy implements HabilityStrategy {</b>
+&nbsp;
+&nbsp;    /**
+&nbsp;     *
+&nbsp;     * @return A description of the Electro Elemental Skill
+&nbsp;     */
+&nbsp;    @Override
+&nbsp;    public String elemental() {
+<b class="fc">&nbsp;        return &quot;Elemental Attack: Throw ahead 3 lightnings doing electro &quot; +</b>
+&nbsp;                &quot;damage to the enemies and leaving a totem in the floor, if &quot; +
+&nbsp;                &quot;the character that pick up a totem, regenerates elemental&quot; +
+&nbsp;                &quot;energy.&quot;;
+&nbsp;    }
+&nbsp;
+&nbsp;    /**
+&nbsp;     *
+&nbsp;     * @return A description of the Electro Elemental Ultimate
+&nbsp;     */
+&nbsp;    @Override
+&nbsp;    public String ultimate() {
+<b class="fc">&nbsp;        return  &quot;Ultimate: Invoke a giant lightning, and calls for the help of &quot; +</b>
+&nbsp;                &quot;of the god of thunders, what makes that every basic attack &quot; +
+&nbsp;                &quot;invokes a small thunder.&quot;;
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-11-14 01:54</div>
+</div>
+</body>
+</html>
